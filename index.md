@@ -7,6 +7,6 @@ layout: home
 
 Venture Capital List
 {% for item in site.data.vclist %}
-  <p><a class="page-link" href="vccontent"> {{ item.Name }}</a></p>
+  <p><a class="page-link" href="/vccontent"> {{ item.Name }}</a></p>
 {% endfor %}
 
