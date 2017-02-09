@@ -38,5 +38,5 @@ page_gen-dirs: true
 page_gen:
   - data: 'vclist'
     template: 'page'
-    name: 'vc_name'
+    name: 'Name'
     dir: 'vclistcontent'
