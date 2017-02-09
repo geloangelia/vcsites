@@ -37,6 +37,6 @@ exclude:
 page_gen-dirs: true
 page_gen:
   - data: 'vclist'
-    template: 'page'
     name: 'Name'
     dir: 'vclistcontent'
+    template: 'pagedata'
