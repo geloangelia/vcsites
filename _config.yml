@@ -25,6 +25,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+highlighter: true
 markdown: kramdown
 theme: minima
 gems:
@@ -33,11 +34,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-csv:
-  education:
-    source: https://docs.google.com/spreadsheets/d/14CTs6Y2hMahNV0UeT2XY3dsJixATY6y7dqHD_T6OP6w/export?format=csv
-    slug: organisation_name
-
-collections:
-  education:
-    output: true
+page_gen-dirs: true
+page_gen:
+  - data: 'vclist'
+    template: 'page'
+    name: 'vc_name'
+    dir: 'vclistcontent'
