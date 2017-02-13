@@ -1,14 +1,66 @@
-
-{{ page.Name }}
-{{ page.Type }}
-{{ page.3YearFundsOffered }}
-{{ page.3YearFundsSold }}
-{{ page.EstMostRecentFundDate }}
-{{ page.InvestorLocation }}
-{{ page.InvestorCity }}
-{{ page.InvestorState }}
-{{ page.InvestorCountry }}
-{{ page.PortfolioSize }}
-{{ page.NumberofDeals }}
-{{ page.Website }}
-{{ page.AverageGrowthScore}}
+<table align="left">
+<thead align="left">
+      <tr>
+          <th>No</th>
+          <th>Name</th>
+          <th>Type</th>
+          <th>3 Year Funds Offered</th>
+          <th>3 Year Funds Sold</th>
+          <th>Est Most Recent Fund Date</th>
+          <th>Investor Location</th>
+          <th>Investor City</th>
+          <th>Investor State</th>
+          <th>Investor Country</th>
+          <th>Portfolio Size</th>
+          <th>Number of Deals</th>
+          <th>Website</th>
+          <th>Average Growth Score</th>
+      </tr>
+  </thead>
+  <tbody align="left">
+  <tr>
+   <td>
+        {{ page.No }}
+    </td>
+     <td>
+        {{ page.Name }}
+    </td>
+      <td>
+        {{ page.Type }}
+    </td>
+     <td>
+        {{ page.3YearFundsOffered }}
+    </td>
+    <td>
+        {{ page.3YearFundsSold }}
+    </td>
+     <td>
+        {{ page.EstMostRecentFundDate }}
+    </td>
+    <td>
+        {{ page.InvestorLocation }}
+    </td>
+    <td>
+        {{ page.InvestorCity }}
+    </td>
+      <td>
+        {{ page.InvestorState }}
+    </td>
+     <td>
+        {{ page.InvestorCountry }}
+    </td>
+     <td>
+        {{ page.PortfolioSize }}
+    </td>
+       <td>
+        {{ page.NumberofDeals }}
+    </td>
+    <td>
+        {{ page.Website }}
+    </td>
+    <td>
+        {{ page.AverageGrowthScore}}
+    </td>
+  </tr>
+  </tbody>
+</table>
